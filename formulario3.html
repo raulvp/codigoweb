@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario 3</title>
+</head>
+<body>
+    <h1>Datos Estudiante</h1>
+    <form action="" method="post">
+        <label for="">Nombre Completo:</label><br>
+        <input type="text" name="nombreest" id="nombreest"><br>
+        <label for="">Carnet identidad:</label><br>
+        <input type="number" name="carnet" id="carnet"><br>
+        <label for="">Sexo:</label><br>
+        <input type="radio" name="sexo" id="sexo" value="Hombre" >Hombre
+        <input type="radio" name="sexo" id="sexo" value="Mujer" checked>Mujer
+        <br>
+        <label for="">Ciudad:</label><br>
+        <select name="ciudad" id="ciudad">
+            <option value="1">Cochabamba</option>
+            <option value="2">La Paz</option>
+            <option value="3">Santa Cruz</option>
+            <option value="4">Potosi</option>
+            <option value="5">Beni</option>
+            <option value="6">Pando</option>
+            <option value="7">Chuquisaca</option>
+            <option value="8">Tarija</option>
+            <option value="9">Oruro</option>
+        </select>
+        <br>
+        <label for="">Pasatiempos:</label><br>
+        <input type="checkbox" name="dep" id="" value="deporte">Deporte
+        <input type="checkbox" name="dan" id="" value="danza">Danza
+        <input type="checkbox" name="teat" id="" value="teatro">Teatro
+        <input type="checkbox" name="inf" id="" value="informatica">Informatica
+
+        <br>
+        <label for="">Fecha Nacimiento:</label><br>
+        <input type="date" name="fechanac" id="fechanac">
+        <br>
+        <label for="">Foto Actual:</label><br>
+        <input type="file" name="foto" id="foto">
+        <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+    
+</body>
+</html>
