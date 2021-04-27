@@ -1,0 +1,17 @@
+header{
+    background-color: rgb(60, 132, 134);
+}
+nav{
+    background-color: black;
+    color: white;
+    font-size: 13px;
+
+}
+article{
+    background-color: thistle;
+    height: 200px;
+}
+footer{
+    background-color: slategray;
+    height: 30px;
+}
